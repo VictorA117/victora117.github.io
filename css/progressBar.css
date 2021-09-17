@@ -1,0 +1,1129 @@
+:root {
+    --python: 70%;
+    --typescript: 70%;
+    --java: 80%;
+    --javascript: 65%;
+    --dart: 50%;
+
+    --flutter: 55%;
+    --android: 60%;
+
+    --html: 80%;
+    --css: 75%;
+    --xml: 50%;
+    --wordpress: 65%;
+    --prestashop: 70%;
+    --spring: 40%;
+    --rails: 30%;
+
+    --mysql: 60%;
+    --sql: 55%;
+    --access: 70%;
+
+    --linux: 75%;
+    --windowsserver: 65%;
+    --ccna: 25%;
+    --redes: 85%;
+
+    --espanol: 100%;
+    --ingles: 50%;
+  }
+
+.skills-bar-container {
+    /*position: relative;
+    width: 40%;
+    min-width: 300px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+    list-style: none;
+    padding: unset;
+}
+
+.skills-bar-container li {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.skills-bar-container li .progressbar-title {
+    color: #8c8b8b;
+}
+
+.skills-bar-container li .progressbar-title h5 {
+    display: inline-block;
+}
+
+.skills-bar-container li .progressbar-title img {
+    height: 1.5em;
+    width: auto;
+}
+
+.skills-bar-container li .progressbar-title .percent {
+    position: absolute;
+    right: 5px;
+}
+
+    .skills-bar-container li .bar-container {
+        background: #7b7b7bab;
+        position: relative;
+        width: 100%;
+        height: 8px;
+        margin-top: 5px;
+        display: block;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+.skills-bar-container li .bar-container .progressbar {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.progressred {
+    background-color: #e11f22;
+}
+
+.progressjavscript {
+    background-color: #dfb911;
+}
+.progresspython {
+    background-color: #0080f8;
+}
+
+.progresandroid {
+    background-color: #48de8b;
+}
+
+.progresflutter {
+    background-color: #00d2ff;
+}
+
+.progreshtml {
+    background-color: #ff4c1e;
+}
+
+.progrescss {
+    background-color: #0065f5;
+}
+
+.progresxml {
+    background-color: #ee9b40;
+}
+
+.progresprestashop {
+    background-color: #de006e;
+}
+.progreswordpress {
+    background-color: #1b769b;
+}
+/*Base de datos colores*/
+
+.progressql {
+    background-color: #0072c6;
+}
+
+.progresmysql {
+    background-color: #e48e00;
+}
+
+.progresaccess {
+    background-color: #a33639;
+}
+
+/* otros colores*/
+
+.progreslinux {
+    background-color: #ffcf21;
+}
+
+.progreswindowsserver {
+    background-color: #0f84c3;
+}
+
+.progresccna{
+    background-color: darkred;
+}
+.progresredes {
+    background-color: #000;
+}
+
+.progresespanol {
+    background-color: #ff0a00;
+}
+.progresingles {
+    background-color: #001e80;
+}
+
+.progressblue {
+    background-color: #1199ff;
+}
+
+.progresspurple {
+    background-color: #9b59b6;
+}
+
+.progressorange {
+    background-color: #ffa500;
+}
+
+.progressgreen {
+    background-color: #27ae60;
+}
+
+
+/*--------------------------------------------------------
+    Lenguajes de programaci�n
+-----------------------------------------------------------*/
+.skills-bar-container li .bar-container #progress-java {
+    -webkit-animation-name: progress-java;
+    animation-name: progress-java;
+    -webkit-animation-delay: 3.1s;
+    animation-delay: 3.1s;
+}
+
+.skills-bar-container li .bar-container #progress-javascript {
+    -webkit-animation-name: progress-javascript;
+    animation-name: progress-javascript;
+    -webkit-animation-delay: 3.8s;
+    animation-delay: 3.8s;
+}
+
+.skills-bar-container li .bar-container #progress-python {
+    -webkit-animation-name: progress-python;
+    animation-name: progress-python;
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+}
+
+.skills-bar-container li .bar-container #progress-android {
+    -webkit-animation-name: progress-android;
+    animation-name: progress-android;
+    -webkit-animation-delay: 5.3s;
+    animation-delay: 5.3s;
+}
+
+.skills-bar-container li .bar-container #progress-flutter {
+    -webkit-animation-name: progress-flutter;
+    animation-name: progress-flutter;
+    -webkit-animation-delay: 6.0s;
+    animation-delay: 6.0s;
+}
+/*
+.skills-bar-container li .bar-container #progress-dart {
+    -webkit-animation-name: progress-dart;
+    animation-name: progress-dart;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+
+.skills-bar-container li .bar-container #progress-typescript {
+    -webkit-animation-name: progress-typescript;
+    animation-name: progress-typescript;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+ */
+
+
+
+/*--------------------------------------------------------
+    Desarrollo web
+-----------------------------------------------------------*/
+.skills-bar-container li .bar-container #progress-html {
+    -webkit-animation-name: progress-html;
+    animation-name: progress-html;
+    -webkit-animation-delay: 6.7s;
+    animation-delay: 6.7s;
+}
+
+.skills-bar-container li .bar-container #progress-css {
+    -webkit-animation-name: progress-css;
+    animation-name: progress-css;
+    -webkit-animation-delay: 7.4s;
+    animation-delay: 7.4s;
+}
+
+.skills-bar-container li .bar-container #progress-xml {
+    -webkit-animation-name: progress-xml;
+    animation-name: progress-xml;
+    -webkit-animation-delay: 8.1s;
+    animation-delay: 8.1s;
+}
+
+.skills-bar-container li .bar-container #progress-prestashop {
+    -webkit-animation-name: progress-prestashop;
+    animation-name: progress-prestashop;
+    -webkit-animation-delay: 8.8s;
+    animation-delay: 8.8s;
+}
+
+.skills-bar-container li .bar-container #progress-wordpress {
+    -webkit-animation-name: progress-wordpress;
+    animation-name: progress-wordpress;
+    -webkit-animation-delay: 9.5s;
+    animation-delay: 9.5s;
+}
+
+/*--------------------------------------------------------
+    otros
+-----------------------------------------------------------*/
+
+.skills-bar-container li .bar-container #progress-spring {
+    -webkit-animation-name: progress-spring;
+    animation-name: progress-spring;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.skills-bar-container li .bar-container #progress-rails {
+    -webkit-animation-name: progress-rails;
+    animation-name: progress-rails;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.skills-bar-container li .bar-container #progress-mysql {
+    -webkit-animation-name: progress-mysql;
+    animation-name: progress-mysql;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.skills-bar-container li .bar-container #progress-sql {
+    -webkit-animation-name: progress-sql;
+    animation-name: progress-sql;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.skills-bar-container li .bar-container #progress-access {
+    -webkit-animation-name: progress-access;
+    animation-name: progress-access;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.skills-bar-container li .bar-container #progress-linux {
+    -webkit-animation-name: progress-linux;
+    animation-name: progress-linux;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.skills-bar-container li .bar-container #progress-windowsserver {
+    -webkit-animation-name: progress-windowsserver;
+    animation-name: progress-windowsserver;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.skills-bar-container li .bar-container #progress-ccna {
+    -webkit-animation-name: progress-ccna;
+    animation-name: progress-ccna;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.skills-bar-container li .bar-container #progress-espanol {
+    -webkit-animation-name: progress-espanol;
+    animation-name: progress-espanol;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.skills-bar-container li .bar-container #progress-ingles {
+    -webkit-animation-name: progress-ingles;
+    animation-name: progress-ingles;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.skills-bar-container li .bar-container #progress-redes {
+    -webkit-animation-name: progress-redes;
+    animation-name: progress-redes;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+
+/*--------------------------------------------------------
+    Python
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--python);
+    }
+}
+
+@-moz-keyframes progress-python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--python);
+    }
+}
+
+@keyframes progress-python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--python);
+    }
+}
+
+
+/*--------------------------------------------------------
+    Typescript
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-typescript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--typescript);
+    }
+}
+
+@-moz-keyframes progress-typescript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--typescript);
+    }
+}
+
+
+@keyframes progress-typescript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--typescript);
+    }
+}
+
+
+/*--------------------------------------------------------
+    Javascript
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--javascript);
+    }
+}
+
+@-moz-keyframes progress-javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--javascript);
+    }
+}
+
+@keyframes progress-javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--javascript);
+    }
+}
+
+
+/*--------------------------------------------------------
+    Java
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-java {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--java);
+    }
+}
+
+@-moz-keyframes progress-java {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--java);
+    }
+}
+
+
+@keyframes progress-java {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--java);
+    }
+}
+
+
+/*--------------------------------------------------------
+    Dart
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-dart {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--dart);
+    }
+}
+
+@-moz-keyframes progress-dart {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--dart);
+    }
+}
+
+@keyframes progress-dart {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--dart);
+    }
+}
+
+/*--------------------------------------------------------
+    flutter
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-flutter {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--flutter);
+    }
+}
+
+@-moz-keyframes progress-flutter {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--flutter);
+    }
+}
+
+@keyframes progress-flutter {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--flutter);
+    }
+}
+
+/*--------------------------------------------------------
+    android
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-android {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--android);
+    }
+}
+
+@-moz-keyframes progress-android {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--android);
+    }
+}
+
+@keyframes progress-android {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--android);
+    }
+}
+
+/*--------------------------------------------------------
+    html
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--html);
+    }
+}
+
+@-moz-keyframes progress-html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--html);
+    }
+}
+
+@keyframes progress-html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--html);
+    }
+}
+
+/*--------------------------------------------------------
+    css
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--css);
+    }
+}
+
+@-moz-keyframes progress-css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--css);
+    }
+}
+
+@keyframes progress-css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--css);
+    }
+}
+
+/*--------------------------------------------------------
+    xml
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-xml {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--xml);
+    }
+}
+
+@-moz-keyframes progress-xml {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--xml);
+    }
+}
+
+@keyframes progress-xml {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--xml);
+    }
+}
+
+/*--------------------------------------------------------
+    wordpress
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-wordpress {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--wordpress);
+    }
+}
+
+@-moz-keyframes progress-wordpress {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--wordpress);
+    }
+}
+
+@keyframes progress-wordpress {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--wordpress);
+    }
+}
+
+/*--------------------------------------------------------
+    prestashop
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-prestashop {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--prestashop);
+    }
+}
+
+@-moz-keyframes progress-prestashop {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--prestashop);
+    }
+}
+
+@keyframes progress-prestashop {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--prestashop);
+    }
+}
+
+/*--------------------------------------------------------
+    spring
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-spring {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--spring);
+    }
+}
+
+@-moz-keyframes progress-spring {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--spring);
+    }
+}
+
+@keyframes progress-spring {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--spring);
+    }
+}
+
+/*--------------------------------------------------------
+    rails
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-rails {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--rails);
+    }
+}
+
+@-moz-keyframes progress-rails {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--rails);
+    }
+}
+
+@keyframes progress-rails {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--rails);
+    }
+}
+
+/*--------------------------------------------------------
+    mysql
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-mysql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--mysql);
+    }
+}
+
+@-moz-keyframes progress-mysql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--mysql);
+    }
+}
+
+@keyframes progress-mysql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--mysql);
+    }
+}
+
+
+/*--------------------------------------------------------
+    sql
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-sql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--sql);
+    }
+}
+
+@-moz-keyframes progress-sql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--sql);
+    }
+}
+
+@keyframes progress-sql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--sql);
+    }
+}
+
+/*--------------------------------------------------------
+    access
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-access {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--access);
+    }
+}
+
+@-moz-keyframes progress-access {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--access);
+    }
+}
+
+@keyframes progress-access {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--access);
+    }
+}
+
+/*--------------------------------------------------------
+    linux
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-linux {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--linux);
+    }
+}
+
+@-moz-keyframes progress-linux {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--linux);
+    }
+}
+
+@keyframes progress-linux {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--linux);
+    }
+}
+
+/*--------------------------------------------------------
+    windowsserver
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-windowsserver {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--windowsserver);
+    }
+}
+
+@-moz-keyframes progress-windowsserver {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--windowsserver);
+    }
+}
+
+@keyframes progress-windowsserver {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--windowsserver);
+    }
+}
+
+/*--------------------------------------------------------
+    ccna
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-ccna {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--ccna);
+    }
+}
+
+@-moz-keyframes progress-ccna {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--ccna);
+    }
+}
+
+@keyframes progress-ccna {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--ccna);
+    }
+}
+
+
+
+/*--------------------------------------------------------
+    redes
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-redes {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--redes);
+    }
+}
+
+@-moz-keyframes progress-redes {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--redes);
+    }
+}
+
+@keyframes progress-redes {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--redes);
+    }
+}
+
+
+/*--------------------------------------------------------
+    espanol
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-espanol {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--espanol);
+    }
+}
+
+@-moz-keyframes progress-espanol {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--espanol);
+    }
+}
+
+@keyframes progress-espanol {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--espanol);
+    }
+}
+
+/*--------------------------------------------------------
+    ingles
+-----------------------------------------------------------*/
+@-webkit-keyframes progress-ingles {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--ingles);
+    }
+}
+
+@-moz-keyframes progress-ingles {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--ingles);
+    }
+}
+
+@keyframes progress-ingles {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: var(--ingles);
+    }
+}
